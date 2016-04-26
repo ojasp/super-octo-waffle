@@ -24,6 +24,6 @@ if ($URI -notin $listofcollections) {
     Add-WebConfiguration @list
     }
 else {
-    Write-Output "$URI is already added as a condition."
+    Write-Output "$URI is already exists as a condition."
     }
 }
