@@ -19,6 +19,7 @@ $list = @{
 }
 }
 
+####### Check to see if that condition already exists in $RuleName
 if ($URI -notin $listofcollections) {
     Add-WebConfiguration @list
     }
